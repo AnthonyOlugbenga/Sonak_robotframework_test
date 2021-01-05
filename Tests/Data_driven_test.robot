@@ -1,6 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
-Resource    ../Resources/Page_object/Keyword_Data_driven.robot
+Resource    ../Resources/Pages/Keyword_Data_driven.robot
 
 
 *** Test Cases ***

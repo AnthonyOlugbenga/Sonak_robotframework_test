@@ -1,31 +1,34 @@
+
 # Login Page Elements
-link_sign_in = 'xpath:/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a'
-textbox_username = 'xpath://*[@id="email"]'
-textbox_password = 'xpath://*[@id="passwd"]'
-button_login = "xpath:/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[2]/button/span"
+BROWSER = 'firefox'
+URL = 'http://automationpractice.com/index.php?'
+LINK_SIGN_IN = 'xpath:/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a'
+TEXTBOX_USERNAME = 'xpath://*[@id="email"]'
+TEXTBOX_PASSWORD = 'xpath://*[@id="passwd"]'
+LOGIN_BUTTON = "xpath:/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[2]/button/span"
+MY_ACCOUNT = 'My account'
 
 # Forgotten password
-link_sign_In = 'xpath:/html/body/div/div[1]/header/div[2]/div/div/nav/div[1]/a'
-click_forgot_link = 'xpath:/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[1]/a'
-enter_email = 'id:email'
-click_forgot_button = 'xpath:/html/body/div/div[2]/div/div[3]/div/div/form/fieldset/p/button/span'
-confirmation_message = 'A confirmation email has been sent to your address: sonak190uk@yahoo.com'
-back_to_login = '/html/body/div/div[2]/div/div[3]/div/ul/li/a/span'
+CLICK_FORGOT_LINK = 'xpath:/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[1]/a'
+ENTER_EMAIL = 'id:email'
+FORGOT_PASSWORD_BUTTON = 'xpath:/html/body/div/div[2]/div/div[3]/div/div/form/fieldset/p/button/span'
+CONFIRMATION_MESSAGE = 'A confirmation email has been sent to your address: '
 
 # Contact us Page Elements
-link_contact_us = 'xpath:/html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a'
-select_heading = 'xpath://*[@id="id_contact"]'
-text_email_address = 'xpath://*[@id="email"]'
-enter_sequence = 'xpath://*[@id="message"]'
-enter_message = 'xpath://*[@id="message"]'
-click_button = 'xpath:/html/body/div/div[2]/div/div[3]/div/form/fieldset/div[2]/button/span'
+CONTACT_US_LINK = 'xpath:/html/body/div/div[1]/header/div[2]/div/div/nav/div[2]/a'
+SELECT_HEADING = 'xpath://*[@id="id_contact"]'
+TEXT_EMAIL_ADDRESS = 'xpath://*[@id="email"]'
+ORDER_REFERENCE = 'xpath://*[@id="message"]'
+ENTER_MESSAGE = 'xpath://*[@id="message"]'
+CLICK_BUTTON = 'xpath:/html/body/div/div[2]/div/div[3]/div/form/fieldset/div[2]/button/span'
 click_button_to_return = 'xpath:/html/body/div/div[2]/div/div[3]/div/form/fieldset/div[2]/button/span'
 
 # Searching and selecting product
-enter_search_item = 'xpath:/html/body/div/div[1]/header/div[3]/div/div/div[2]/form/button '
-press_search_button = 'xpath:/html/body/div/div[1]/header/div[3]/div/div/div[2]/form/button'
-select_from_list = 'xpath://*[@id="selectProductSort"]'
-click_on_image = 'xpath:/html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[1]/div/a[1]/img'
+CLICK_SEARCH = 'xpath://input[@name="search_query"]'
+ENTER_SEARCHED_ITEM = 'xpath://input[@name="search_query"] '
+PRESS_SEARCH_BUTTON = 'xpath://button[@name="submit_search"]'
+SELECT_FROM_LIST = 'xpath://*[@id="selectProductSort"]'
+CLICK_ON_IMAGE = 'xpath:/html/body/div/div[2]/div/div[3]/div[2]/ul/li[1]/div/div[1]/div/a[1]/img'
 click_image = 'xpath:/html/body/div/div[2]/div/div[4]/div/div/div/div[4]/form/div/div[2]/p[1]/a[2]/span/i'
 click_plus_sign = 'xpath:/html/body/div/div[2]/div/div[4]/div/div/div/div[4]/form/div/div[2]/p[1]/a[2]/span/i'
 select_size = 'xpath://*[@id="group_1"] '
@@ -56,20 +59,15 @@ enter_postalCode = 'xpath://*[@id="postcode"]'
 phone_number = 'xpath://*[@id="phone_mobile"]'
 alias = 'xpath://*[@id="alias"]'
 save_button = 'xpath:/html/body/div/div[2]/div/div[3]/div/div/form/div[4]/button/span'
-my_account = 'My account'
+
 
 # Variables
-# variables for common file
-Url = 'http://automationpractice.com/index.php?'
-Browser ='firefox'
 
 # variables for contact us page
 enter_text = 'sonak190uk@yahoo.com'
 
-# variables for valid login page
-username = 'tony190uk@yahoo.com'
-password = 'testing'
-My_account = 'My account'
 
+# selecting desired t-shirt
+T_SHIRTS = 'xpath://*[@id="block_top_menu"]/ul/li[3]/a'
 
 

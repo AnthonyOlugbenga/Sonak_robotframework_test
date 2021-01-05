@@ -4,11 +4,10 @@ Library     SeleniumLibrary
 
 *** Keywords ***
 Launch the brower
-    [Arguments]      ${Url}      ${Browser}
-    Open browser     ${Url}      ${Browser}
+    Open browser     ${URL}      ${BROWSER}
 
 Click Sign In
-    Click element     ${link_sign_in}
+    Click element     ${LINK_SIGN_IN}
 
 Finish TestCase
     close all browsers

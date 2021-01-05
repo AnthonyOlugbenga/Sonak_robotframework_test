@@ -1,17 +1,21 @@
 *** Settings ***
 Library     SeleniumLibrary
 Documentation    Confirm user can retrieve forgotten password
-Resource    ../Resources/Page_object/Keyword_Forgot_password.robot
+Resource    ../Resources/Pages/Keyword_Forgot_password.robot
 
 
 *** Test Cases ***
 Verify that user can retrieve forgotten password
     [Tags]    Functionality
 
-    Launch browser       ${Url}     ${Browser}
-    Click in button to sign in
+    Launch browser
+    Click On Button to Sign in
     Enter your email address        ${username}
     Click forgot password button
-    Verification
-    Close browser
+    Verification of Alert Message
 
+
+Verify user can select T-shirts
+    Click on T shirts button
+    Click on chexbox to select price
+    Close browser

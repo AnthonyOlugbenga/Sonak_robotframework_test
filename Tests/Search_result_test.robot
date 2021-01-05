@@ -1,7 +1,7 @@
 *** Settings ***
 Library     SeleniumLibrary
 Documentation    Suite description
-Resource     ../Resources/Page_object/Keyword_Search_result.robot
+Resource     ../Resources/Pages/Keyword_Search_result.robot
 
 
 
