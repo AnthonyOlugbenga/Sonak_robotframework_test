@@ -1,3 +1,2 @@
-# ecommerce project, purchase to payment
-Sonak_robotframework_test, basic principle of end to end testing
-Page Object Model pattern in Robot framework, A simple project applying basic principles
+# An E-Commerce testing project, purchase to payment, a basic principle of end to end testing.
+Sonak_robotframework_test. Designed with Page Object Model pattern in Robot framework.
